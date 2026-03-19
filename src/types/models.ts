@@ -25,6 +25,7 @@ export interface ApprovedScripts {
   idRefusalHandlingScript: string;
   verificationScript: string;
   routingScript: string;
+  clientUpdateSchedulingScript: string;
   closingScript: string;
 }
 

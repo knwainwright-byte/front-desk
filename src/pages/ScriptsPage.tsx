@@ -9,6 +9,10 @@ const scriptList = [
   { key: "idRefusalHandlingScript", title: "No-ID / Refusal Handling Script" },
   { key: "verificationScript", title: "Verification Script" },
   { key: "routingScript", title: "Routing Script" },
+  {
+    key: "clientUpdateSchedulingScript",
+    title: "Client Update Scheduling Script"
+  },
   { key: "closingScript", title: "Closing Script" }
 ] as const;
 

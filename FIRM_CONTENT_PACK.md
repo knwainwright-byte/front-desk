@@ -75,6 +75,17 @@ Communication must be calm, clear, polite, and confident to build trust and prev
 - Listen fully before responding.
 - Close each interaction with a clear next step.
 
+### Module 7: Client Update Scheduling Protocol
+**Short Explanation**  
+Client updates are primarily accommodated on Wednesday, Thursday, and Friday. If a client requests updates on Monday or Tuesday, front desk should still assist as operationally possible while clearly recommending Wednesday-Friday for fuller update handling.
+
+**Key Rules**
+- Primary update days are Wednesday, Thursday, and Friday.
+- Do not refuse help on Monday or Tuesday; assist as possible based on team availability.
+- Set update-day expectations clearly and professionally.
+- Recommend Wednesday-Friday for complete update continuity.
+- Document request and outcome in required logs.
+
 ---
 
 ## 2) Approved Front Desk Scripts
@@ -100,7 +111,10 @@ Communication must be calm, clear, polite, and confident to build trust and prev
 7. **Routing Script**  
    "Everything is confirmed. Please proceed to the [Department/Area], and the team there will assist you shortly. For Finance visits, I will route you based on the person and purpose you provided."
 
-8. **Closing Script**  
+8. **Client Update Scheduling Script**  
+   "We can assist you today as best as possible. For scheduled client updates, the designated update days are Wednesday, Thursday, and Friday for fuller support and continuity."
+
+9. **Closing Script**  
    "Thank you for your cooperation. If you need anything else, please return to the front desk and we'll be glad to help."
 
 ---
@@ -196,6 +210,30 @@ Communication must be calm, clear, polite, and confident to build trust and prev
 - How should digital intake requirement be explained professionally?  
 - What escalation path applies if visitor refuses both ID and digital intake?  
 - Can routing happen before identity record and purpose are confirmed?
+
+### Scenario 13: Client Update Request on Monday
+**Situation:** Client arrives Monday requesting full case update.  
+**Practice Questions:**  
+- How should designated update days be communicated?  
+- What assistance should still be offered Monday?  
+- How should expectations be set without refusal?  
+- What should be documented?
+
+### Scenario 14: Urgent Update Request Outside Designated Days
+**Situation:** Client arrives Tuesday with urgent update request and limited team availability.  
+**Practice Questions:**  
+- How should staff balance support with update-day policy?  
+- Which script best communicates Wednesday-Friday guidance?  
+- When should escalation be considered?  
+- How should decision and outcome be logged?
+
+### Scenario 15: Frustrated Client Insisting on Immediate Update
+**Situation:** Client insists on same-day Tuesday update and refuses later scheduling.  
+**Practice Questions:**  
+- What de-escalation language should be used?  
+- How should update-day policy be reinforced professionally?  
+- What immediate assistance can be offered?  
+- What escalation path applies if conflict continues?
 
 ---
 
@@ -364,12 +402,12 @@ E. Ask another visitor to confirm
 **Correct: B**
 
 **Q19 (Greeting & Professionalism)**  
-Best closing after successful intake?  
-A. You're done. Next.  
-B. Go wherever you think is right.  
-C. Thank you. Please proceed to assigned department; we are here if needed.  
-D. Don't come back without documents.  
-E. No closing needed.  
+A client requests a case update on Monday. Which response best follows policy?  
+A. We only handle updates Wednesday to Friday, so we cannot assist today.  
+B. Updates are only Monday and Tuesday.  
+C. We can assist as best as possible today, and for fuller update handling we recommend Wednesday, Thursday, or Friday.  
+D. Please come back next week only.  
+E. You should not request updates at the front desk.  
 **Correct: C**
 
 **Q20 (Client Identification)**  
@@ -409,12 +447,12 @@ E. Skip intake if they appear confident
 **Correct: B**
 
 **Q24 (Scenario Judgment)**  
-Visitor walks past desk toward offices. What should you do?  
-A. Ignore  
-B. Politely stop and complete intake first  
-C. Shout  
-D. Let proceed and record later  
-E. Ask another client  
+A client arrives Tuesday for updates and says they cannot return later this week. What is best first response?  
+A. Refuse all support because Tuesday is outside preferred update days.  
+B. Provide available assistance now, explain designated update days (Wednesday-Friday), and set expectations clearly.  
+C. Route immediately without intake due to urgency.  
+D. Tell them updates are never handled at front desk.  
+E. Ask them to return without documenting request.  
 **Correct: B**
 
 **Q25 (ID Protocol)**  
@@ -517,13 +555,13 @@ E. Only new clients.
 **Correct: C**
 
 **Q36 (Routing)**  
-Visitor comes for post-injury rehabilitation. Route to:  
-A. Law Firm  
-B. Finance  
-C. Doctor  
-D. Physiotherapy  
-E. Lobby seating only  
-**Correct: D**
+What are the designated days for scheduled client updates?  
+A. Monday, Tuesday, Wednesday  
+B. Wednesday, Thursday, Friday  
+C. Tuesday, Thursday, Saturday  
+D. Monday through Friday equally  
+E. Friday only  
+**Correct: B**
 
 **Q37 (Scenario Judgment)**  
 Visitor is here for Finance but is unsure which finance office name applies. Best first step?  
@@ -580,13 +618,13 @@ E. Skip if visitor appears trustworthy
 **Correct: C**
 
 **Q43 (Routing)**  
-If intake is incomplete, routing should:  
-A. Proceed anyway  
-B. Pause until required steps are complete  
-C. Default to legal  
-D. Delegate to waiting visitors  
-E. Be skipped entirely  
-**Correct: B**
+If a client requests updates on Monday or Tuesday, routing/assistance should:  
+A. Be denied because updates only happen Wednesday-Friday.  
+B. Proceed with no explanation of update-day policy.  
+C. Provide assistance as operationally possible and recommend Wednesday-Friday for fuller update accommodation.  
+D. Be routed without any intake controls.  
+E. Be postponed automatically to next month.  
+**Correct: C**
 
 **Q44 (Scenario Judgment)**  
 Visitor insists they were told "no ID or photo needed today." What should you do?  
@@ -668,3 +706,4 @@ E. Ask client to self-navigate
 
 - Finance conversation boundary: Front desk does not introduce AMSL first. For Finance visits, confirm who the visitor is here to see and route based on visitor-stated purpose.
 - Logging requirement: Physical logbook entry is required for every visitor. Electronic logging is completed when available and does not replace the physical logbook requirement.
+- Client updates service window: Wednesday, Thursday, and Friday are designated update days. Monday/Tuesday visitors are still assisted as possible while being advised of the preferred update window.

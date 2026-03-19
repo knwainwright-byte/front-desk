@@ -260,13 +260,14 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     id: "Q19",
     style: "standard",
     category: "Greeting & Professionalism",
-    question: "Which closing is best after successful intake?",
+    question:
+      "A client requests a case update on Monday. Which response best follows policy?",
     options: {
-      A: "You're done. Next.",
-      B: "Go wherever you think is right.",
-      C: "Thank you. Please proceed to the assigned department; we are here if you need help.",
-      D: "Don't come back without documents.",
-      E: "No closing is needed."
+      A: "We only handle updates Wednesday to Friday, so we cannot assist today.",
+      B: "Updates are only Monday and Tuesday.",
+      C: "We can assist as best as possible today, and for fuller update handling we recommend Wednesday, Thursday, or Friday.",
+      D: "Please come back next week only.",
+      E: "You should not request updates at the front desk."
     },
     correctAnswer: "C"
   },
@@ -332,13 +333,13 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     style: "scenario",
     category: "Scenario Judgment",
     question:
-      "A visitor appears confident and starts walking past the desk toward offices. What should you do?",
+      "A client arrives Tuesday for updates and says they cannot return later this week. What is best first response?",
     options: {
-      A: "Ignore because they seem familiar.",
-      B: "Politely stop and complete intake before allowing routing.",
-      C: "Shout for them to return.",
-      D: "Let them proceed and record later.",
-      E: "Ask another client to assist."
+      A: "Refuse all support because Tuesday is outside preferred update days.",
+      B: "Provide available assistance now, explain designated update days (Wednesday-Friday), and set expectations clearly.",
+      C: "Route immediately without intake due to urgency.",
+      D: "Tell them updates are never handled at front desk.",
+      E: "Ask them to return without documenting request."
     },
     correctAnswer: "B"
   },
@@ -504,15 +505,16 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     id: "Q36",
     style: "standard",
     category: "Routing",
-    question: "A visitor comes for post-injury rehabilitation sessions. Route to:",
+    question:
+      "What are the designated days for scheduled client updates?",
     options: {
-      A: "Law Firm",
-      B: "Finance",
-      C: "Doctor",
-      D: "Physiotherapy",
-      E: "Main lobby seating only"
+      A: "Monday, Tuesday, Wednesday",
+      B: "Wednesday, Thursday, Friday",
+      C: "Tuesday, Thursday, Saturday",
+      D: "Monday through Friday equally",
+      E: "Friday only"
     },
-    correctAnswer: "D"
+    correctAnswer: "B"
   },
   {
     id: "Q37",
@@ -604,15 +606,16 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     id: "Q43",
     style: "standard",
     category: "Routing",
-    question: "If intake is incomplete, routing should:",
+    question:
+      "If a client requests updates on Monday or Tuesday, routing/assistance should:",
     options: {
-      A: "Proceed anyway to avoid delays",
-      B: "Pause until required steps are complete",
-      C: "Default to legal team",
-      D: "Be delegated to waiting visitors",
-      E: "Be skipped entirely"
+      A: "Be denied because updates only happen Wednesday-Friday.",
+      B: "Proceed with no explanation of update-day policy.",
+      C: "Provide assistance as operationally possible and recommend Wednesday-Friday for fuller update accommodation.",
+      D: "Be routed without any intake controls.",
+      E: "Be postponed automatically to next month."
     },
-    correctAnswer: "B"
+    correctAnswer: "C"
   },
   {
     id: "Q44",

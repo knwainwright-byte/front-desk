@@ -138,5 +138,41 @@ export const scenarioBank: ScenarioItem[] = [
       "What escalation path applies if the visitor refuses both ID and digital intake?",
       "Can routing happen before identity record and purpose are confirmed?"
     ]
+  },
+  {
+    id: "scenario-13",
+    title: "Client Update Request on Monday",
+    situation:
+      "A client arrives on Monday requesting a full case update and expects the same update flow normally handled later in the week.",
+    questions: [
+      "How should front desk communicate the designated update days?",
+      "What level of assistance should still be offered on Monday?",
+      "How should expectations be set without refusing service?",
+      "What should be documented in visitor logs?"
+    ]
+  },
+  {
+    id: "scenario-14",
+    title: "Urgent Update Request Outside Designated Days",
+    situation:
+      "A client arrives Tuesday and states they urgently need an update before travel. Team availability is limited.",
+    questions: [
+      "How should staff balance assistance today with update-day policy?",
+      "What script communicates Wednesday-Friday scheduling while remaining supportive?",
+      "When should escalation be considered for urgent requests?",
+      "How should the final routing decision be recorded?"
+    ]
+  },
+  {
+    id: "scenario-15",
+    title: "Frustrated Client Insisting on Immediate Update",
+    situation:
+      "A client becomes frustrated on Tuesday and states they will not return later in the week for updates.",
+    questions: [
+      "What professional wording should front desk use to de-escalate?",
+      "How should designated update days be reinforced without sounding dismissive?",
+      "What immediate assistance can still be offered?",
+      "What escalation path applies if the situation continues?"
+    ]
   }
 ];

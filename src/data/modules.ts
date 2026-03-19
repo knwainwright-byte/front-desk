@@ -86,5 +86,18 @@ export const orientationModules: OrientationModule[] = [
       "Listen fully before responding.",
       "Close each interaction with a clear next step."
     ]
+  },
+  {
+    id: "module-client-updates",
+    title: "Client Update Scheduling Protocol",
+    explanation:
+      "Client updates are primarily accommodated on Wednesday, Thursday, and Friday. If a client requests updates on Monday or Tuesday, front desk staff should still assist as operationally possible while clearly recommending the designated update days for full support.",
+    keyRules: [
+      "Primary update days are Wednesday, Thursday, and Friday.",
+      "Do not refuse help on Monday or Tuesday; assist as possible based on team availability.",
+      "Set expectations clearly and professionally for update-day scheduling.",
+      "Recommend Wednesday-Friday for complete update handling and continuity.",
+      "Document the client's request and routing outcome in required logs."
+    ]
   }
 ];

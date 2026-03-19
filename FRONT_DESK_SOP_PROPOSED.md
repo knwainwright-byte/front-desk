@@ -129,11 +129,28 @@ If purpose is unclear, ask neutral clarifying questions before routing.
 
 ---
 
-## 9. Escalation Protocol
+## 9. Client Update Service Window
+Client updates are primarily accommodated on:
+- Wednesday
+- Thursday
+- Friday
+
+If a client requests updates on Monday or Tuesday:
+- front desk still assists as operationally possible,
+- clearly communicates preferred update days (Wednesday-Friday),
+- sets expectations professionally,
+- and documents the request and outcome.
+
+This policy is for consistency and service continuity and does not authorize refusal of reasonable assistance.
+
+---
+
+## 10. Escalation Protocol
 Escalate to Operations Manager or Managing Partner's office when:
 - visitor refuses required identity steps,
 - visitor refuses required record/logging process,
 - visitor disputes mandatory intake protocol,
+- client-update requests outside designated days require supervisor decision due to operational constraints,
 - safety or conduct concerns arise.
 
 Before escalation:
@@ -143,7 +160,7 @@ Before escalation:
 
 ---
 
-## 10. Communication Standards
+## 11. Communication Standards
 Front desk communication must be:
 - calm,
 - clear,
@@ -158,12 +175,13 @@ Prohibited behaviors:
 
 ---
 
-## 11. Compliance Monitoring
+## 12. Compliance Monitoring
 Supervisors should verify:
 - intake sequence followed,
 - identity records complete and verifiable,
 - physical and electronic logs aligned,
 - routing accuracy by department,
+- update-day guidance applied consistently (Wednesday-Friday primary window),
 - proper escalation when required.
 
 Recommended checks:
@@ -173,7 +191,7 @@ Recommended checks:
 
 ---
 
-## 12. Required Records
+## 13. Required Records
 Maintain:
 - physical visitor logbook,
 - electronic visitor log entries,
@@ -184,7 +202,7 @@ Record retention and storage follow firm records policy.
 
 ---
 
-## 13. Orientation and Acknowledgment
+## 14. Orientation and Acknowledgment
 All new front desk staff must:
 1. Complete Front Desk Orientation Platform training.
 2. Review this SOP document.
@@ -192,7 +210,7 @@ All new front desk staff must:
 
 ---
 
-## 14. SOP Review and Version Control
+## 15. SOP Review and Version Control
 This SOP should be reviewed:
 - at least quarterly, or
 - sooner if operational, legal, or compliance needs change.
@@ -201,7 +219,7 @@ Changes require document version update and re-acknowledgment as required.
 
 ---
 
-## 15. Acknowledgment Section (Print Use)
+## 16. Acknowledgment Section (Print Use)
 **Employee Name:** ____________________________________________  
 **Role:** _____________________________________________________  
 **Date Reviewed:** ____________________________________________  

@@ -15,6 +15,8 @@ export const approvedScripts: ApprovedScripts = {
     "Thank you. I'm verifying your details now: department [Department], status [New/Existing], identity record complete, and visitor log entries completed in the system and physical logbook.",
   routingScript:
     "Everything is confirmed. Please proceed to the [Department/Area], and the team there will assist you shortly. For Finance visits, I will route you based on the person and purpose you provided.",
+  clientUpdateSchedulingScript:
+    "We can assist you today as best as possible. For scheduled client updates, the designated update days are Wednesday, Thursday, and Friday for fuller support and continuity.",
   closingScript:
     "Thank you for your cooperation. If you need anything else, please return to the front desk and we'll be glad to help."
 };
