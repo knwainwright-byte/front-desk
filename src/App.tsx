@@ -31,16 +31,23 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const syncHiddenViewFromHash = () => {
-      const hash = window.location.hash.toLowerCase();
-      if (hash === "#sop") {
+    const syncHiddenViewFromPath = () => {
+      const normalizedPath = window.location.pathname
+        .toLowerCase()
+        .replace(/\/+$/, "");
+      const restoredPath = new URLSearchParams(window.location.search)
+        .get("p")
+        ?.toLowerCase();
+      const isSopPath =
+        normalizedPath.endsWith("/sop") || restoredPath?.endsWith("/sop");
+      if (isSopPath) {
         setActiveView("sop");
       }
     };
 
-    syncHiddenViewFromHash();
-    window.addEventListener("hashchange", syncHiddenViewFromHash);
-    return () => window.removeEventListener("hashchange", syncHiddenViewFromHash);
+    syncHiddenViewFromPath();
+    window.addEventListener("popstate", syncHiddenViewFromPath);
+    return () => window.removeEventListener("popstate", syncHiddenViewFromPath);
   }, []);
 
   const handleAssessmentComplete = (result: AssessmentResult) => {

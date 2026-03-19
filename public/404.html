@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <script>
+      (function () {
+        var path = window.location.pathname;
+        var idx = path.indexOf("/front-desk/");
+        var base = idx >= 0 ? "/front-desk/" : "/";
+        var subPath = idx >= 0 ? path.slice(idx + "/front-desk".length) : path;
+        var target = base + "?p=" + encodeURIComponent(subPath);
+        window.location.replace(target);
+      })();
+    </script>
+  </body>
+</html>
