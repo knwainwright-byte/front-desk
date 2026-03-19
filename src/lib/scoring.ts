@@ -12,7 +12,7 @@ export const reviewGuidanceMap: Record<SkillCategory, string> = {
   "New vs Existing Handling":
     "Review how to distinguish new and existing clients without assumptions.",
   "ID Protocol":
-    "Review when and how ID must be requested, collected, and verified.",
+    "Review when and how identity must be captured and verified, including digital intake photo fallback with required contact details.",
   Routing:
     "Review routing steps for legal, finance, doctor, and physiotherapy visitors.",
   "Scenario Judgment":

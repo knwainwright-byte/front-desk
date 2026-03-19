@@ -37,13 +37,14 @@ export const scenarioBank: ScenarioItem[] = [
   },
   {
     id: "scenario-04",
-    title: "Physiotherapy Existing Client Without ID Ready",
+    title: "Physiotherapy Existing Client Without Physical ID",
     situation:
-      "An existing physiotherapy client arrives and says their ID is in the car. They ask to go directly to treatment first.",
+      "An existing physiotherapy client arrives without physical ID and asks to go directly to treatment. They offer to share details later.",
     questions: [
-      "What is the correct response regarding ID protocol?",
-      "How can you keep the interaction calm and respectful?",
-      "What options can you offer while maintaining policy?"
+      "What is the required fallback identity method when no physical ID is available?",
+      "Which manual contact details must be recorded before routing?",
+      "How do you explain this requirement with professional firmness?",
+      "Can routing happen before the digital intake record is complete?"
     ]
   },
   {
@@ -59,13 +60,13 @@ export const scenarioBank: ScenarioItem[] = [
   },
   {
     id: "scenario-06",
-    title: "ID Refusal in Finance Department Intake",
+    title: "No-ID Visitor in Finance Intake",
     situation:
-      "A new finance visitor refuses to provide ID and says it is unnecessary for a simple question.",
+      "A new finance visitor has no physical ID and agrees to a digital intake photo, but the first image is blurred and partially backlit.",
     questions: [
-      "How do you explain the ID requirement clearly?",
-      "What wording helps maintain professionalism during refusal?",
-      "What is the next step if refusal continues?"
+      "What quality checks must be completed before accepting the digital intake photo?",
+      "What should you do if the image is blurred or the face is obscured?",
+      "What data pairing step is required before saving?"
     ]
   },
   {
@@ -103,13 +104,13 @@ export const scenarioBank: ScenarioItem[] = [
   },
   {
     id: "scenario-10",
-    title: "New Doctor Client with Limited Time",
+    title: "New Doctor Client Without ID and Limited Time",
     situation:
-      "A new doctor client says they only have two minutes and asks to skip questions and be sent directly in.",
+      "A new doctor client says they have no physical ID and only two minutes. They ask to skip intake and be sent directly in.",
     questions: [
-      "Which steps are non-negotiable despite time pressure?",
-      "How can you phrase requirements briefly and clearly?",
-      "What is the correct routing decision if intake is incomplete?"
+      "Which identity steps remain mandatory despite time pressure?",
+      "What is the correct script for the digital intake fallback path?",
+      "What is the routing decision if identity record is incomplete?"
     ]
   },
   {
@@ -125,14 +126,15 @@ export const scenarioBank: ScenarioItem[] = [
   },
   {
     id: "scenario-12",
-    title: "Uncertain Walk-In with No Appointment Details",
+    title: "Uncertain Walk-In with No ID and Incomplete Details",
     situation:
-      "A visitor arrives without appointment details and says, 'I think I came to the right place, but I'm not sure for what department.'",
+      "A visitor arrives without appointment details and without physical ID. They are unsure of department and hesitant about being photographed.",
     questions: [
       "What is the best first question to narrow purpose?",
       "How do you determine new vs existing status in uncertain cases?",
-      "When should ID be requested in this conversation?",
-      "How do you route once details are confirmed?"
+      "How do you explain the digital intake photo requirement professionally?",
+      "What escalation path applies if the visitor refuses both ID and digital intake?",
+      "Can routing happen before identity record and purpose are confirmed?"
     ]
   }
 ];

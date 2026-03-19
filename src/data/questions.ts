@@ -161,12 +161,12 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     style: "scenario",
     category: "Scenario Judgment",
     question:
-      "A visitor refuses ID and says, 'I only have one question.' What is the best response?",
+      "A visitor has no physical ID and says, 'I only have one question.' What is the best response?",
     options: {
       A: "Allow entry without ID to avoid conflict.",
       B: "End the conversation immediately.",
-      C: "Explain that ID is mandatory protocol and offer supervisor support if needed.",
-      D: "Tell them to return another day.",
+      C: "Explain that identity record is mandatory, complete digital intake photo plus required contact details, and escalate only if they refuse.",
+      D: "Tell them to return another day without documenting anything.",
       E: "Ask another client for advice."
     },
     correctAnswer: "C"
@@ -306,7 +306,7 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     options: {
       A: "No ID for returning clients",
       B: "ID only for doctor visits",
-      C: "Copy or photo of ID collected and verified",
+      C: "Physical ID is collected and verified, or digital intake photo plus full legal name and phone number is captured and verified",
       D: "Client verbal confirmation only",
       E: "Any document without verification"
     },
@@ -416,10 +416,10 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     style: "scenario",
     category: "Scenario Judgment",
     question:
-      "A physiotherapy client says they are late and asks to provide ID after treatment. What is correct?",
+      "A physiotherapy client says they are late and has no physical ID. What is correct?",
     options: {
       A: "Allow exception automatically.",
-      B: "Explain ID is required before routing and offer quick completion.",
+      B: "Explain identity record is required before routing and offer quick digital intake photo plus required contact details.",
       C: "Mark them absent.",
       D: "Ask them to return next week.",
       E: "Skip all checks for this department."
@@ -487,11 +487,11 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     id: "Q35",
     style: "standard",
     category: "ID Protocol",
-    question: "Which response is best when a visitor asks why ID is needed?",
+    question: "Which response is best when a visitor asks why ID or digital intake photo is needed?",
     options: {
       A: "Because I said so.",
       B: "No reason, just policy.",
-      C: "It is a standard mandatory step for records and verification.",
+      C: "It is a mandatory requirement for firm security, insurance compliance, and record verification.",
       D: "Only today we need it.",
       E: "Only new clients need ID."
     },
@@ -559,10 +559,10 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     style: "logic",
     category: "Scenario Judgment",
     question:
-      "Client says they are existing, purpose is finance, but refuses ID. Which is correct next action?",
+      "Client is existing, purpose is finance, has no physical ID, and refuses digital intake photo. Which is correct next action?",
     options: {
       A: "Route immediately because they are existing.",
-      B: "Explain ID is mandatory, attempt resolution professionally, and escalate if refusal continues.",
+      B: "Restate mandatory identity requirements professionally and escalate to Operations Manager or Managing Partner's office if refusal continues.",
       C: "Reclassify as legal client.",
       D: "Skip ID and note verbal refusal only.",
       E: "End service without explanation."
@@ -591,7 +591,7 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     options: {
       A: "A quick glance without record",
       B: "Client verbally states ID number",
-      C: "Collect copy or photo, then verify readability and match",
+      C: "Collect physical ID record or digital intake photo fallback with full legal name and phone number, then verify match and legibility",
       D: "Record initials only",
       E: "Skip if client appears trustworthy"
     },
@@ -616,10 +616,10 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     style: "scenario",
     category: "Scenario Judgment",
     question:
-      "A visitor insists they were told 'no ID needed today.' What should you do?",
+      "A visitor insists they were told 'no ID or photo needed today.' What should you do?",
     options: {
       A: "Accept the claim and skip policy.",
-      B: "Calmly restate mandatory protocol and continue required steps.",
+      B: "Calmly restate mandatory identity protocol, continue required steps, and escalate if they refuse all approved methods.",
       C: "Argue until they agree.",
       D: "Ignore and route.",
       E: "Send them home without explanation."
@@ -687,11 +687,11 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     id: "Q49",
     style: "standard",
     category: "ID Protocol",
-    question: "If ID image is blurry, the correct action is to:",
+    question: "If the digital intake photo is blurry or backlit, the correct action is to:",
     options: {
       A: "Accept it to save time",
       B: "Proceed without record",
-      C: "Request a clearer copy/photo and verify before routing",
+      C: "Retake the photo under proper lighting and verify it is attached to the correct visitor record before routing",
       D: "Ignore and mark complete",
       E: "Route first, verify later"
     },

@@ -42,15 +42,18 @@ export const orientationModules: OrientationModule[] = [
   },
   {
     id: "module-id-protocol",
-    title: "ID Collection Protocol",
+    title: "Identification and Digital Intake Protocol",
     explanation:
-      "ID collection is mandatory. A copy of ID or a clear photo of ID must be collected for records before completing intake. This must be communicated respectfully and consistently.",
+      "Identification collection is a mandatory security and record-keeping requirement. Every visitor must provide a valid government-issued ID for scanning. If a physical ID is unavailable, a Digital Intake Photo must be captured and uploaded to the visitor log with required contact details before routing.",
     keyRules: [
-      "Request ID from every visitor as part of standard protocol.",
-      "Accept either a copy or a clear photo according to office procedure.",
-      "Confirm the ID belongs to the visitor and is readable.",
-      "Explain that ID collection is mandatory for records.",
-      "If a visitor hesitates, restate the requirement professionally and escalate if needed."
+      "Mandatory verification: Request a valid ID from every visitor at arrival.",
+      "Primary method: Prioritize a physical scan or clear photo of government-issued ID.",
+      "Secondary method (no-ID gap): Capture a live digital intake photo and record full legal name plus phone number; record email when available.",
+      "Verification: Confirm the ID or live photo matches the visitor and all recorded data is legible.",
+      "Professional firmness: Explain records are required for security and insurance compliance.",
+      "Escalation: If a visitor refuses required identification steps, escalate to Operations Manager or Managing Partner's office.",
+      "Photo quality procedure: Use neutral background, good lighting, unobstructed face, head-and-shoulders framing, and retake blurred images.",
+      "Data pairing control: Confirm the photo is attached to the correct visitor record before saving."
     ]
   },
   {

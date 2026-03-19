@@ -6,7 +6,7 @@ const scriptList = [
   { key: "identifyingPurposeScript", title: "Identifying Purpose Script" },
   { key: "newVsExistingScript", title: "New vs Existing Script" },
   { key: "idRequestScript", title: "ID Request Script" },
-  { key: "idRefusalHandlingScript", title: "ID Refusal Handling Script" },
+  { key: "idRefusalHandlingScript", title: "No-ID / Refusal Handling Script" },
   { key: "verificationScript", title: "Verification Script" },
   { key: "routingScript", title: "Routing Script" },
   { key: "closingScript", title: "Closing Script" }
