@@ -6,6 +6,7 @@ import { HomePage } from "./pages/HomePage";
 import { ModulesPage } from "./pages/ModulesPage";
 import { ScenarioPracticePage } from "./pages/ScenarioPracticePage";
 import { ScriptsPage } from "./pages/ScriptsPage";
+import { SopPage } from "./pages/SopPage";
 import { AssessmentResult } from "./types/models";
 
 const SUMMARY_STORAGE_KEY = "fdop_last_summary_v1";
@@ -27,6 +28,19 @@ export default function App() {
 
   useEffect(() => {
     setSummary(loadStoredSummary());
+  }, []);
+
+  useEffect(() => {
+    const syncHiddenViewFromHash = () => {
+      const hash = window.location.hash.toLowerCase();
+      if (hash === "#sop") {
+        setActiveView("sop");
+      }
+    };
+
+    syncHiddenViewFromHash();
+    window.addEventListener("hashchange", syncHiddenViewFromHash);
+    return () => window.removeEventListener("hashchange", syncHiddenViewFromHash);
   }, []);
 
   const handleAssessmentComplete = (result: AssessmentResult) => {
@@ -79,6 +93,8 @@ export default function App() {
             onReturnHome={() => setActiveView("home")}
           />
         );
+      case "sop":
+        return <SopPage />;
       default:
         return <HomePage />;
     }

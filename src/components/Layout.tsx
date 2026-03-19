@@ -6,7 +6,8 @@ export type ViewKey =
   | "scripts"
   | "scenarios"
   | "assessment"
-  | "summary";
+  | "summary"
+  | "sop";
 
 interface LayoutProps {
   activeView: ViewKey;
