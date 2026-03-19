@@ -316,13 +316,14 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     id: "Q23",
     style: "standard",
     category: "Routing",
-    question: "A visitor asks about payment plans and invoices. Best routing?",
+    question:
+      "A visitor says they are here for a finance payment matter but does not mention AMSL. What is the best front desk approach?",
     options: {
-      A: "Legal team",
-      B: "Finance",
-      C: "Doctor",
-      D: "Physiotherapy",
-      E: "Security desk"
+      A: "Ask if they want AMSL before asking anything else.",
+      B: "Confirm Finance visit, ask who they are here to see, and route based on visitor-stated purpose.",
+      C: "Route to legal by default.",
+      D: "Tell them to decide later upstairs.",
+      E: "Skip intake if they appear confident."
     },
     correctAnswer: "B"
   },
@@ -344,16 +345,17 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
   {
     id: "Q25",
     style: "standard",
-    category: "Greeting & Professionalism",
-    question: "Which behavior best reflects confidence at front desk?",
+    category: "ID Protocol",
+    question:
+      "Which statement correctly reflects the firm's visitor logging requirement?",
     options: {
-      A: "Speaking unclearly to avoid mistakes",
-      B: "Using consistent protocol with clear, calm language",
-      C: "Skipping steps when challenged",
-      D: "Avoiding eye contact",
-      E: "Arguing with visitors"
+      A: "Electronic log is enough if the day is busy.",
+      B: "Physical logbook is optional when the system is working.",
+      C: "Every visitor must be logged in the physical logbook, and electronic logging is also completed when available.",
+      D: "Logging is only required for new visitors.",
+      E: "Logging can be completed after routing."
     },
-    correctAnswer: "B"
+    correctAnswer: "C"
   },
   {
     id: "Q26",
@@ -444,14 +446,15 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
   {
     id: "Q32",
     style: "standard",
-    category: "Greeting & Professionalism",
-    question: "If a visitor is frustrated, your best communication style is:",
+    category: "Client Identification",
+    question:
+      "For Finance visits, what is the correct way to handle AMSL in conversation?",
     options: {
-      A: "Match their frustration to show urgency",
-      B: "Remain calm, polite, and clear",
-      C: "Speak louder to gain control",
-      D: "Ignore their concerns",
-      E: "End interaction quickly without explanation"
+      A: "Always mention AMSL first so clients can choose.",
+      B: "Do not mention AMSL unless the visitor mentions it; confirm Finance and ask who they are here to see.",
+      C: "Avoid any Finance clarification to prevent delays.",
+      D: "Route all Finance visitors to AMSL unless they object.",
+      E: "Ask another client to clarify the visitor's route."
     },
     correctAnswer: "B"
   },
@@ -516,13 +519,13 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
     style: "scenario",
     category: "Scenario Judgment",
     question:
-      "A visitor says they need both legal advice and a payment update. What is best first step?",
+      "A visitor says they are here for Finance but is unsure which finance office name applies. What is best first step?",
     options: {
-      A: "Send directly to legal without intake.",
-      B: "Identify and confirm primary immediate purpose, complete intake, then route accordingly.",
-      C: "Route to doctor as neutral option.",
-      D: "Decline service due to two requests.",
-      E: "Ask them to choose later upstairs."
+      A: "Introduce AMSL immediately and ask if they were approved.",
+      B: "Confirm who they are here to see and their stated finance purpose, then route without introducing internal recommendation logic.",
+      C: "Route to legal as a temporary step.",
+      D: "Skip intake and let them ask upstairs.",
+      E: "Tell them finance visits are not accepted without prior knowledge of office names."
     },
     correctAnswer: "B"
   },
@@ -629,16 +632,17 @@ export const baseAssessmentQuestions: BaseQuestion[] = [
   {
     id: "Q45",
     style: "standard",
-    category: "Greeting & Professionalism",
-    question: "Which action best supports a calm client experience?",
+    category: "ID Protocol",
+    question:
+      "If electronic logging is temporarily unavailable, what should front desk do?",
     options: {
-      A: "Speaking quickly and skipping confirmations",
-      B: "Using clear steps and confirming understanding",
-      C: "Using technical jargon",
-      D: "Giving different instructions each time",
-      E: "Avoiding eye contact and closure"
+      A: "Pause all check-ins until the system returns.",
+      B: "Skip logging and continue routing to avoid delays.",
+      C: "Complete physical logbook entries immediately and complete electronic entries once available, without skipping required intake controls.",
+      D: "Log only visitors who are new clients.",
+      E: "Allow visitors to self-log later."
     },
-    correctAnswer: "B"
+    correctAnswer: "C"
   },
   {
     id: "Q46",

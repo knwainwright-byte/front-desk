@@ -15,13 +15,14 @@ export const scenarioBank: ScenarioItem[] = [
   },
   {
     id: "scenario-02",
-    title: "Returning Finance Client in a Hurry",
+    title: "Returning Finance Client in a Hurry (Client-Led Routing)",
     situation:
-      "A client states they are here to discuss billing and says they have visited many times. They ask to skip intake because they are late.",
+      "A client states they are here for a finance matter, says they are late, and does not mention AMSL. They ask to skip intake and go directly upstairs.",
     questions: [
       "What information must still be verified before routing?",
+      "How should you confirm Finance routing without introducing AMSL first?",
       "How should you respond to pressure to skip protocol?",
-      "What is the correct way to handle ID collection in this moment?"
+      "Which logging steps are still mandatory before routing?"
     ]
   },
   {
@@ -62,11 +63,12 @@ export const scenarioBank: ScenarioItem[] = [
     id: "scenario-06",
     title: "No-ID Visitor in Finance Intake",
     situation:
-      "A new finance visitor has no physical ID and agrees to a digital intake photo, but the first image is blurred and partially backlit.",
+      "A new finance visitor has no physical ID and agrees to a digital intake photo, but the first image is blurred and partially backlit. The electronic log also appears temporarily unavailable.",
     questions: [
       "What quality checks must be completed before accepting the digital intake photo?",
       "What should you do if the image is blurred or the face is obscured?",
-      "What data pairing step is required before saving?"
+      "What data pairing step is required before saving?",
+      "What physical logbook action is still required if the electronic log is unavailable?"
     ]
   },
   {
@@ -115,13 +117,13 @@ export const scenarioBank: ScenarioItem[] = [
   },
   {
     id: "scenario-11",
-    title: "Existing Legal Client Upset About Repetition",
+    title: "Logging Omission During Busy Front Desk Period",
     situation:
-      "An existing legal client says, 'You ask the same questions every time. This is unnecessary.'",
+      "A staff member completes electronic intake for several visitors during a rush but forgets to enter two visitors in the physical logbook.",
     questions: [
-      "How should you respond to protect rapport and policy?",
-      "What explanation can you give for repeat verification?",
-      "What should you avoid saying in this interaction?"
+      "What is the compliance issue in this situation?",
+      "What corrective action should be taken immediately?",
+      "Can visitors be treated as fully logged if only electronic records were completed?"
     ]
   },
   {

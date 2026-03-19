@@ -20,6 +20,8 @@ Every visitor must be correctly identified by purpose before direction is provid
 **Key Rules**
 - Ask a clear purpose question.
 - Confirm the department: Law Firm, Finance, Doctor, or Physiotherapy.
+- For Finance visits, do not mention AMSL unless the visitor mentions it first.
+- For Finance visits, confirm who the visitor is coming to see and let the visitor direct finance context.
 - Do not route based on assumptions or appearance.
 - Repeat back the department to confirm understanding.
 - Ask a clarifying question if details are unclear.
@@ -44,6 +46,7 @@ Identification collection is a mandatory security and record-keeping requirement
 - Primary method: Prioritize a physical scan or clear photo of government-issued ID.
 - Secondary method (no-ID gap): Capture a live digital intake photo and record full legal name plus phone number; record email when available.
 - Verification: Confirm identity record matches the visitor and all recorded data is legible.
+- Logging requirement: Complete visitor logging in the electronic log when available and in the physical logbook for every visitor.
 - Professional firmness: Explain this is required for firm security and insurance compliance.
 - Escalation: If a visitor refuses all required identity steps, escalate to the Operations Manager or Managing Partner's office.
 - Photo quality procedure: Neutral background, good lighting, unobstructed face, head-and-shoulders framing, and retake if blurred.
@@ -55,6 +58,7 @@ After purpose, status, and ID are complete, route visitors accurately to the cor
 
 **Key Rules**
 - Route only after all intake steps are complete.
+- For Finance routing, do not introduce AMSL first; route based on visitor-stated purpose and who they are meeting.
 - Legal matters -> Legal team.
 - Billing/payment matters -> Finance.
 - Medical consultation matters -> Doctor.
@@ -79,7 +83,7 @@ Communication must be calm, clear, polite, and confident to build trust and prev
    "Good morning, welcome to the office. My name is [Name], and I'll assist you at the front desk."
 
 2. **Identifying Purpose Script**  
-   "May I confirm the purpose of your visit today? Are you here for Law Firm services, Finance, Doctor, or Physiotherapy?"
+   "May I confirm the purpose of your visit today? Are you here for Law Firm services, Finance, Doctor, or Physiotherapy? If this is a Finance visit, who are you here to see?"
 
 3. **New vs Existing Script**  
    "Thank you. Have you visited our office before, or is this your first appointment with us?"
@@ -91,10 +95,10 @@ Communication must be calm, clear, polite, and confident to build trust and prev
    "I understand. In the absence of a physical ID, our protocol requires a quick identification photo and manual contact details. If you prefer, I can explain the requirement clearly. If you still decline, I must escalate to the Operations Manager or Managing Partner's office."
 
 6. **Verification Script**  
-   "Thank you. I'm verifying your details now: department [Department], status [New/Existing], and identity record complete (ID or digital intake photo with required contact details)."
+   "Thank you. I'm verifying your details now: department [Department], status [New/Existing], identity record complete, and visitor log entries completed in the system and physical logbook."
 
 7. **Routing Script**  
-   "Everything is confirmed. Please proceed to the [Department/Area], and the team there will assist you shortly."
+   "Everything is confirmed. Please proceed to the [Department/Area], and the team there will assist you shortly. For Finance visits, I will route you based on the person and purpose you provided."
 
 8. **Closing Script**  
    "Thank you for your cooperation. If you need anything else, please return to the front desk and we'll be glad to help."
@@ -111,12 +115,13 @@ Communication must be calm, clear, polite, and confident to build trust and prev
 - How should you request ID professionally?  
 - When can you route to legal?
 
-### Scenario 2: Returning Finance Client in a Hurry
-**Situation:** Client says they are returning and asks to skip intake.  
+### Scenario 2: Returning Finance Client in a Hurry (Client-Led Routing)
+**Situation:** Client says they are here for a finance matter, does not mention AMSL, and asks to skip intake due to delay.  
 **Practice Questions:**  
 - What must still be verified before routing?  
+- How should finance routing be confirmed without introducing AMSL first?  
 - How do you respond to pressure to skip protocol?  
-- How should ID collection be handled?
+- Which logging steps are mandatory before routing?
 
 ### Scenario 3: Doctor Appointment with Unclear Purpose
 **Situation:** Visitor says "I have an appointment upstairs" without details.  
@@ -141,11 +146,12 @@ Communication must be calm, clear, polite, and confident to build trust and prev
 - How to confirm status professionally?
 
 ### Scenario 6: No-ID Visitor in Finance Intake
-**Situation:** New finance visitor has no physical ID, agrees to digital intake, but the first image is blurred/backlit.  
+**Situation:** New finance visitor has no physical ID, agrees to digital intake, but the first image is blurred/backlit and the electronic log is temporarily unavailable.  
 **Practice Questions:**  
 - What quality checks must be completed before acceptance?  
 - What should be done if the image is blurred or obscured?  
 - What data pairing step is required before saving?
+- What physical logbook action is still required when the electronic log is unavailable?
 
 ### Scenario 7: Family Member Checking In for Doctor Visit
 **Situation:** Family member answers on behalf of patient.  
@@ -175,12 +181,12 @@ Communication must be calm, clear, polite, and confident to build trust and prev
 - What is the correct digital intake fallback script?  
 - What routing decision applies if identity record is incomplete?
 
-### Scenario 11: Existing Legal Client Upset About Repetition
-**Situation:** Existing client complains about repeated questions.  
+### Scenario 11: Logging Omission During Busy Front Desk Period
+**Situation:** Staff completes electronic intake during a rush but forgets to enter two visitors in the physical logbook.  
 **Practice Questions:**  
-- How to respond while protecting policy?  
-- How to explain repeat verification?  
-- What should be avoided in response?
+- What compliance issue occurred?  
+- What corrective action is required immediately?  
+- Can visitors be treated as fully logged with electronic-only entries?
 
 ### Scenario 12: Uncertain Walk-In with No ID and Incomplete Details
 **Situation:** Visitor is unsure of department and has no physical ID, and is hesitant about being photographed.  
@@ -394,12 +400,12 @@ E. Any document without verification
 **Correct: C**
 
 **Q23 (Routing)**  
-Visitor asks about payment plans/invoices. Route to:  
-A. Legal  
-B. Finance  
-C. Doctor  
-D. Physiotherapy  
-E. Security  
+Visitor says they are here for a finance payment matter but does not mention AMSL. Best front desk approach?  
+A. Ask if they want AMSL before asking anything else  
+B. Confirm Finance visit, ask who they are here to see, and route based on visitor-stated purpose  
+C. Route to legal by default  
+D. Tell them to decide later upstairs  
+E. Skip intake if they appear confident  
 **Correct: B**
 
 **Q24 (Scenario Judgment)**  
@@ -411,14 +417,14 @@ D. Let proceed and record later
 E. Ask another client  
 **Correct: B**
 
-**Q25 (Greeting & Professionalism)**  
-Which behavior best reflects confidence?  
-A. Unclear speaking  
-B. Consistent protocol with calm clear language  
-C. Skipping challenged steps  
-D. Avoid eye contact  
-E. Arguing with visitors  
-**Correct: B**
+**Q25 (ID Protocol)**  
+Which statement correctly reflects the firm's visitor logging requirement?  
+A. Electronic log is enough if the day is busy  
+B. Physical logbook is optional when the system is working  
+C. Every visitor must be logged in the physical logbook, and electronic logging is also completed when available  
+D. Logging is only required for new visitors  
+E. Logging can be completed after routing  
+**Correct: C**
 
 **Q26 (Client Identification)**  
 Which list includes all valid service lines?  
@@ -474,13 +480,13 @@ D. ID -> Purpose -> New/Existing -> Route
 E. Purpose -> ID -> New/Existing -> Route  
 **Correct: A**
 
-**Q32 (Greeting & Professionalism)**  
-If visitor is frustrated, best style is:  
-A. Match frustration  
-B. Remain calm, polite, clear  
-C. Speak louder  
-D. Ignore concerns  
-E. End quickly without explanation  
+**Q32 (Client Identification)**  
+For Finance visits, what is the correct way to handle AMSL in conversation?  
+A. Always mention AMSL first so clients can choose  
+B. Do not mention AMSL unless the visitor mentions it; confirm Finance and ask who they are here to see  
+C. Avoid finance clarification to prevent delays  
+D. Route all finance visitors to AMSL unless they object  
+E. Ask another client to clarify the visitor's route  
 **Correct: B**
 
 **Q33 (Client Identification)**  
@@ -520,12 +526,12 @@ E. Lobby seating only
 **Correct: D**
 
 **Q37 (Scenario Judgment)**  
-Visitor needs both legal advice and payment update. Best first step?  
-A. Send to legal without intake  
-B. Confirm primary immediate purpose, complete intake, then route  
-C. Route to doctor  
-D. Decline service  
-E. Ask to choose upstairs  
+Visitor is here for Finance but is unsure which finance office name applies. Best first step?  
+A. Introduce AMSL immediately and ask if they were approved  
+B. Confirm who they are here to see and their stated finance purpose, then route without introducing internal recommendation logic  
+C. Route to legal temporarily  
+D. Skip intake and let them ask upstairs  
+E. Reject visit unless they know the office name  
 **Correct: B**
 
 **Q38 (Greeting & Professionalism)**  
@@ -591,14 +597,14 @@ D. Ignore and route
 E. Send home without explanation  
 **Correct: B**
 
-**Q45 (Greeting & Professionalism)**  
-Which action best supports calm client experience?  
-A. Speak quickly and skip confirmations  
-B. Use clear steps and confirm understanding  
-C. Use jargon  
-D. Give different instructions each time  
-E. Avoid eye contact/closure  
-**Correct: B**
+**Q45 (ID Protocol)**  
+If electronic logging is temporarily unavailable, what should front desk do?  
+A. Pause all check-ins until the system returns  
+B. Skip logging and continue routing  
+C. Complete physical logbook entries immediately and complete electronic entries once available, without skipping required intake controls  
+D. Log only new visitors  
+E. Let visitors self-log later  
+**Correct: C**
 
 **Q46 (Scenario Judgment / Logic)**  
 New doctor visitor with unclear details. Best sequence?  
@@ -657,3 +663,8 @@ E. Ask client to self-navigate
 
 **Hard rule**
 - Routing must not occur before the identity record is completed and verified (physical ID or approved digital intake fallback).
+
+## 6) Operational Controls (Supervisor Emphasis)
+
+- Finance conversation boundary: Front desk does not introduce AMSL first. For Finance visits, confirm who the visitor is here to see and route based on visitor-stated purpose.
+- Logging requirement: Physical logbook entry is required for every visitor. Electronic logging is completed when available and does not replace the physical logbook requirement.

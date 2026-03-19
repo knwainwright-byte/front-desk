@@ -10,6 +10,7 @@ export const orientationModules: OrientationModule[] = [
       "Welcome every visitor promptly and professionally.",
       "Treat each interaction as important, even during busy periods.",
       "Collect and confirm required information before routing anyone.",
+      "Complete required visitor logging as part of the role: electronic log when available and physical logbook always.",
       "Follow protocol consistently to protect service quality and records.",
       "Stay calm, clear, and respectful in every situation."
     ]
@@ -22,6 +23,8 @@ export const orientationModules: OrientationModule[] = [
     keyRules: [
       "Ask a clear purpose question: 'How may we assist you today?'",
       "Confirm which department the visitor is meeting: Law Firm, Finance, Doctor, or Physiotherapy.",
+      "For Finance visits, do not mention AMSL unless the visitor brings it up first.",
+      "For Finance visits, confirm who the visitor is coming to see and allow the visitor to direct finance context.",
       "Do not route based on assumptions or appearance.",
       "Repeat back the department to confirm understanding.",
       "If details are unclear, ask one more clarifying question before proceeding."
@@ -50,6 +53,7 @@ export const orientationModules: OrientationModule[] = [
       "Primary method: Prioritize a physical scan or clear photo of government-issued ID.",
       "Secondary method (no-ID gap): Capture a live digital intake photo and record full legal name plus phone number; record email when available.",
       "Verification: Confirm the ID or live photo matches the visitor and all recorded data is legible.",
+      "Logging requirement: Record the visitor in the electronic log when available and in the physical logbook for every visit.",
       "Professional firmness: Explain records are required for security and insurance compliance.",
       "Escalation: If a visitor refuses required identification steps, escalate to Operations Manager or Managing Partner's office.",
       "Photo quality procedure: Use neutral background, good lighting, unobstructed face, head-and-shoulders framing, and retake blurred images.",
@@ -63,6 +67,7 @@ export const orientationModules: OrientationModule[] = [
       "After purpose, status, and ID steps are complete, visitors should be directed accurately and clearly to the correct department.",
     keyRules: [
       "Route only after all intake steps are complete.",
+      "For Finance routing, do not introduce AMSL first; route based on visitor-stated purpose and who they are meeting.",
       "Direct legal matters to the legal team.",
       "Direct billing/payment matters to finance.",
       "Direct medical consultation matters to doctor services.",

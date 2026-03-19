@@ -4,7 +4,7 @@ export const approvedScripts: ApprovedScripts = {
   greetingScript:
     "Good morning, welcome to the office. My name is [Name], and I'll assist you at the front desk.",
   identifyingPurposeScript:
-    "May I confirm the purpose of your visit today? Are you here for Law Firm services, Finance, Doctor, or Physiotherapy?",
+    "May I confirm the purpose of your visit today? Are you here for Law Firm services, Finance, Doctor, or Physiotherapy? If this is a Finance visit, who are you here to see?",
   newVsExistingScript:
     "Thank you. Have you visited our office before, or is this your first appointment with us?",
   idRequestScript:
@@ -12,9 +12,9 @@ export const approvedScripts: ApprovedScripts = {
   idRefusalHandlingScript:
     "I understand. In the absence of a physical ID, our protocol requires a quick identification photo and manual contact details. If you prefer, I can explain the requirement clearly. If you still decline, I must escalate to the Operations Manager or Managing Partner's office.",
   verificationScript:
-    "Thank you. I'm verifying your details now: department [Department], status [New/Existing], and identity record complete (ID or digital intake photo with required contact details).",
+    "Thank you. I'm verifying your details now: department [Department], status [New/Existing], identity record complete, and visitor log entries completed in the system and physical logbook.",
   routingScript:
-    "Everything is confirmed. Please proceed to the [Department/Area], and the team there will assist you shortly.",
+    "Everything is confirmed. Please proceed to the [Department/Area], and the team there will assist you shortly. For Finance visits, I will route you based on the person and purpose you provided.",
   closingScript:
     "Thank you for your cooperation. If you need anything else, please return to the front desk and we'll be glad to help."
 };
