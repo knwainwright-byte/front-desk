@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Layout, ViewKey } from "./components/Layout";
 import { AssessmentPage } from "./pages/AssessmentPage";
+import { ChatSopLoginCheckInPage } from "./pages/ChatSopLoginCheckInPage";
+import { ChatUserManualPage } from "./pages/ChatUserManualPage";
 import { CompletionSummaryPage } from "./pages/CompletionSummaryPage";
 import { HomePage } from "./pages/HomePage";
 import { ModulesPage } from "./pages/ModulesPage";
@@ -40,8 +42,19 @@ export default function App() {
         ?.toLowerCase();
       const isSopPath =
         normalizedPath.endsWith("/sop") || restoredPath?.endsWith("/sop");
+      const isChatUserManualPath =
+        normalizedPath.endsWith("/chat-user-manual") ||
+        restoredPath?.endsWith("/chat-user-manual");
+      const isChatSopPath =
+        normalizedPath.endsWith("/chat-sop-login-check-in") ||
+        restoredPath?.endsWith("/chat-sop-login-check-in");
+
       if (isSopPath) {
         setActiveView("sop");
+      } else if (isChatUserManualPath) {
+        setActiveView("chatUserManual");
+      } else if (isChatSopPath) {
+        setActiveView("chatSopLoginCheckIn");
       }
     };
 
@@ -102,6 +115,10 @@ export default function App() {
         );
       case "sop":
         return <SopPage />;
+      case "chatUserManual":
+        return <ChatUserManualPage />;
+      case "chatSopLoginCheckIn":
+        return <ChatSopLoginCheckInPage />;
       default:
         return <HomePage />;
     }

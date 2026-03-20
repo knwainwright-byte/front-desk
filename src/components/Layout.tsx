@@ -7,7 +7,9 @@ export type ViewKey =
   | "scenarios"
   | "assessment"
   | "summary"
-  | "sop";
+  | "sop"
+  | "chatUserManual"
+  | "chatSopLoginCheckIn";
 
 interface LayoutProps {
   activeView: ViewKey;
@@ -25,7 +27,10 @@ const navItems: Array<{ key: ViewKey; label: string }> = [
 ];
 
 export function Layout({ activeView, onNavigate, children }: LayoutProps) {
-  const showGlobalHeader = activeView !== "sop";
+  const showGlobalHeader =
+    activeView !== "sop" &&
+    activeView !== "chatUserManual" &&
+    activeView !== "chatSopLoginCheckIn";
 
   return (
     <div className="min-h-screen bg-page text-body">
